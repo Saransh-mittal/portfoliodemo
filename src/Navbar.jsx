@@ -66,34 +66,43 @@ const Navbar = () => {
                         Projects
                       </NavLink>
                       <ul
-                        className="dropdown-menu"
+                        className="dropdown-menu py-0"
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
                           <NavLink
+                            id = "project-links"
                             className="dropdown-item bg-white text-dark"
-                            to="#"
+                            to="https://saransh-mittal.github.io/todolist/"
                           >
-                            Action
+                            ToDo List
                           </NavLink>
                         </li>
                         <li>
                           <NavLink
+                            id = "project-links"
                             className="dropdown-item bg-white text-dark"
-                            to="#"
+                            to="https://saransh-mittal.github.io/wordguessgame/"
                           >
-                            Another action
+                            Word Guess Game
                           </NavLink>
                         </li>
                         <li>
-                          <hr className="dropdown-divider" />
+                          <NavLink
+                            id = "project-links"
+                            className="dropdown-item bg-white text-dark"
+                            to="https://saransh-mittal.github.io/gkeepclone/"
+                          >
+                            Google Keep Clone
+                          </NavLink>
                         </li>
                         <li>
                           <NavLink
+                            id = "project-links"
                             className="dropdown-item bg-white text-dark"
-                            to="#"
+                            to="https://saransh-mittal.github.io/counterGreaterThan0/"
                           >
-                            Something else here
+                            Counter
                           </NavLink>
                         </li>
                       </ul>

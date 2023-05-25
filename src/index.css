@@ -64,3 +64,10 @@ code {
   height: 15vw;
   object-fit: cover;
 }
+
+#project-links:hover{
+  color: #fff !important;
+  background-color: #4053fc !important;
+  font-weight: 500;
+  transition: 0.2s;
+}
