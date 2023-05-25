@@ -20,6 +20,7 @@ code {
   font-family: 'Mulish', sans-serif;
 }
 
+
 .navbar{
   background-color: #fff !important;
 }
@@ -49,8 +50,14 @@ code {
 .roundV{
   border-radius: 40px;
 }
-.head{
-  min-height: 70vh;
+#Header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 95px;
+}
+#contact{
+  width: 100%;
+  height: 80vh;
 }
 .butt{
   width: 125px;
